@@ -30,7 +30,7 @@ pip install telepot jdatetime
 3. **Run the script:**
    - Execute the following command in your terminal:
    ```sh
-   python bot.py
+   python Persian-Calendar-Teller-Bot.py
    ```
    - If the bot is an admin, it will send the current and next day's date to the channel.
 
@@ -44,13 +44,13 @@ To automate daily messages, you can use `cronjob` on Linux or `Task Scheduler` o
    ```
 2. Add the following line to run the script every day at 9 AM:
    ```sh
-   0 9 * * * /usr/bin/python3 /path/to/bot.py
+   0 9 * * * /usr/bin/python3 /path/to/Persian-Calendar-Teller-Bot.py
    ```
 
 ### Method 2: Using `Task Scheduler` on Windows
 1. Open `Task Scheduler`.
 2. Create a new task and set it to run at a specified time.
-3. Use `python.exe` to execute `bot.py` from the specified directory.
+3. Use `python.exe` to execute `Persian-Calendar-Teller-Bot.py` from the specified directory.
 
 ## Security Tips
 - Do not expose your bot token in public repositories like GitHub.
